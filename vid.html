@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vidio</title>
+    <link rel="stylesheet" href="styles/vid.css">
+
+</head>
+<body>
+    <video id='video' controls>
+        <source src="assets/apaya.mp4" type="video/webm">
+        your browser does not support the video
+    </video>
+    <div class="play-controls">
+        <button class="play-button" onclick="playPause()">
+            <i class="fas fa-play"></i>
+        </button>
+        <button class="pause-button" onclick="playPause()">
+            <i class="fas fa-pause"></i>
+        </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
